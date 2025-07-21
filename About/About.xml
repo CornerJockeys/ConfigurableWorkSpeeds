@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Configurable Work Speeds</name>
+  <author>Corners</author>
+  <packageId>Corners.ConfigurableWorkSpeed</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>
+    Configurable Work Speeds lets you adjust multipliers for all major work speed-related stats in RimWorld and compatible mods.
+    - Supports RimWorld 1.6 and HugsLib (required)
+    - Optional live configuration via UINotIncluded
+    - Automatically detects and supports custom work speed StatDefs from other mods in most cases.
+    - If you want to add custom work speed StatDefs, see the extension point below.
+    - This mod is open source and available on GitHub: <a href="https://github.com/CornerJockeys/ConfigurableWorkSpeeds">https://github.com/Corners/ConfigurableWorkSpeeds</a>
+    - This is my first mod, so please report any issues or suggestions!
+
+    Logging:
+    This mod logs important events, stat detection, and multiplier changes to RimWorld's log file. You can view these messages in the in-game log window (press Ctrl+F12) or by checking the log file at:
+    <RimWorld install folder>/RimWorldWin64_data/output_log.txt (Windows)
+    This helps with troubleshooting, tracking how multipliers are applied and could point to potential reasons for crashes.
+
+    Extension Point:
+    Other mods can add new StatDefs with relevant keywords/categories, and Configurable Work Speeds will automatically provide sliders for them in the mod options menu. See documentation for details.
+
+  </description>
+  <modDependencies>
+    <li>HugsLib</li>
+  </modDependencies>
+  <extension>
+    <ConfigurableWorkSpeeds_Extension>
+      <description>Other mods can extend this mod by adding StatDefs with work speed-related keywords/categories.</description>
+    </ConfigurableWorkSpeeds_Extension>
+  </extension>
+</ModMetaData>

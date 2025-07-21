@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='WorkSpeedGlobal']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='GeneralLaborSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='ConstructionSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='MiningSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='PlantWorkSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='CookingSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='ButcheryFleshSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='DrugCookingSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='SculptingSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='TailoringSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='SmithingSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='ResearchSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName='CleaningSpeed']</xpath>
+    <value>
+      <statParts>
+        <li Class="ConfigurableWorkSpeed.StatPart_WorkSpeedMultiplier" />
+      </statParts>
+    </value>
+  </Operation>
+</Patch>
